@@ -4,8 +4,13 @@
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">Game of Throne</span>
+      <!-- Number badge on icon -->
+
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
+
+      <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+
        <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
          <a class="mdl-navigation__link" [routerLink]="['/']">
@@ -33,12 +38,14 @@
           Github Repos
         </a>
     </nav>
-     <main>
-          <router-outlet></router-outlet>
-        </main>
+   
   </div>
   <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
+    <div class="page-content">
+        <main>
+          <router-outlet></router-outlet>
+      </main>
+    </div>
   </main>
 </div>
 

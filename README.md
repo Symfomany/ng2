@@ -3,6 +3,21 @@
 A simple starter project demonstrating the basic concepts of Angular 2.
 
 
+### Theme Material Design
+https://getmdl.io/components/index.html#cards-section
+
+### BDD
+Firebase on https://gameofthrone-45ba7.firebaseio.com/
+
+
+### Options TypeScript
+Available on tsconfig.json here http://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+
+### Options Typings
+Definitions Dependencies for Typescript available here http://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+
 ### Features
 
 `angular2-seed` provides the following features:
